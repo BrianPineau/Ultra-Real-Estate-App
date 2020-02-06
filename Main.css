@@ -1,0 +1,53 @@
+
+
+body {
+    font: 
+    height: 100vh;
+    width: 100vw;
+}
+
+/*   Header   */
+header {
+    height: 160px;
+    width: 100%;
+    background-color: lightgrey;
+}
+
+/*   Header Top Row   */
+.header-top-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+}
+
+.top-left-menu li {
+    margin-left: 20px;
+}
+
+.top-right-menu li {
+    margin-right: 20px;
+}
+
+header ul {
+    display: flex;
+}
+
+header li {
+    margin-left: 
+}
+
+/*   Header Bottom Row   */
+.header-bottom-row {
+    display: flex;
+    align-self: flex-end;
+    width: 100%;
+    height: 60px;
+    background-color: indianred;
+}
+
+form {
+    width: 100%;
+    height: 100%;
+}

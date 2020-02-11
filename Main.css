@@ -81,6 +81,7 @@ header button {
     top: 135px;
     height: 100%;
     overflow-y: scroll;
+    box-shadow: -2px 8px 10px #96A493;
 }
 
 .site-listings {
@@ -88,7 +89,6 @@ header button {
     flex-direction: column;
     align-items: center;
     width: 750px;
-    background-color: lightblue;
 }
 
 .listings-title-section {
@@ -96,7 +96,16 @@ header button {
     height: 100px;
     width: 750px;
     padding: 20px;
-    background: gold;
+}
+
+.listings-description {
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+}
+
+.listings-title-bottom {
+    display: flex;
+    justify-content: space-between;
 }
 
 .listings-grid-container {
@@ -106,8 +115,49 @@ header button {
 }
 
 .listings-box {
-    display: grid;
+    display: flex;
+    flex-direction: column-reverse;
     height: 240px;
     width: 355px;
-    background-color: lightgreen;
+    background-color: white;
+    border:1px solid #EEEEEE;
+    border-bottom: 3px solid #006AFF;
+}
+
+
+
+.image-section {
+    height: 148px;
+    border: 1px solid #EEEEEE;
+}
+
+
+
+.box-info-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 92px;
+    padding: 10px;
+}
+
+.box-title-line {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-title-line h1 {
+    font-size: 1.7rem;
+}
+
+.title-line-dimensions {
+    display: flex;
+    align-items: center;
+}
+
+.bath-num {
+    border-left:1px solid #D1D1D5;
+    border-right:1px solid #D1D1D5;
+    margin: 0 4px;
+    padding: 0 4px;
 }
